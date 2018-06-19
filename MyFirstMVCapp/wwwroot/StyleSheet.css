@@ -1,0 +1,11 @@
+﻿body {
+    color: green;
+}
+
+table {
+    border: solid;
+    border-color: red;
+}
+tr {
+    border: solid 5px green;
+}

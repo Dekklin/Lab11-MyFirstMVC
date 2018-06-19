@@ -1,0 +1,21 @@
+﻿<head><Link rel="stylesheet" href="~/StyleSheet.css" type="text/css"/></head>
+@model List<MyFirstMVCapp.Models.Person>;
+
+<table>
+@foreach (var person in Model)
+{
+<tr>
+    <td>@person.Name</td>
+    <td>@person.Year</td>
+    <td>@person.Context</td>
+    <td>@person.Category</td>
+    <td>@person.Honor</td>
+    <td>@person.Country</td>
+    <td>@person.Birth_Year</td>
+    <td>@person.DeathYear</td>
+
+</tr>
+    
+}
+</table>
+<a asp-controller="Home" asp-action="Index">Return To Home</a>
